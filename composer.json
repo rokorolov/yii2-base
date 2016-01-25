@@ -1,0 +1,22 @@
+{
+    "name": "rokorolov/yii2-base",
+    "description": "Base library and components for rokorolov extensions.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","widget","base"],
+    "homepage": "https://github.com/rokorolov/yii2-base",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Roman Korolov",
+            "email": "rokorolov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "rokorolov\\base\\": "src"
+        }
+    }
+}
